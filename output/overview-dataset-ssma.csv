@@ -1,0 +1,71 @@
+project,dataset,overview
+eva-prj-prd-refined-data-od,ref_ssma_redmine,"Descrição
+Dataset que reúne todas as tabelas extraídas do Conecta, sistema fonte para registro e gestão de eventos e processos de Segurança, Saúde e Meio Ambiente (SSMA), abrangendo colaboradores próprios e terceiros, incluindo incidentes, quase-acidentes, não conformidades, ações corretivas e preventivas, investigações, danos e atividades associadas.
+
+Fonte dos Dados
+Sistema Conecta.
+
+Contexto de Aplicação
+Base principal para cálculo, monitoramento e análise dos indicadores de SSMA, suportando relatórios operacionais e gerenciais.
+
+Restrições ou Observações
+Pode conter dados pessoais e sensíveis relacionados a eventos e incidentes, devendo seguir rigorosamente as políticas de proteção de dados e uso conforme LGPD.
+
+Políticas de Acesso
+Acesso controlado para equipes de SSMA, Segurança do Trabalho, Analytics e Governança, conforme perfil e necessidade de uso."
+eva-prj-prd-trusted-data-bt,tru_ssma_external,"Descrição
+Dataset destinado ao armazenamento de tabelas que referenciam arquivos externos utilizados nos processos de SSMA, funcionando como base de apoio para dados complementares não originados de sistemas transacionais internos.
+
+Fonte dos Dados
+Arquivos externos fornecidos por fontes internas ou externas ao ambiente corporativo.
+
+Contexto de Aplicação
+Utilizado como base de referência para análises e cálculos de indicadores de SSMA, atualmente com foco em TFA e TFCA, além de suporte a comparações e validações de dados.
+
+Restrições ou Observações
+Não é específico para um único indicador. O conteúdo e a estrutura dos dados podem variar conforme a origem do arquivo externo, devendo ser avaliados antes do uso analítico.
+
+Políticas de Acesso
+Acesso restrito a usuários das áreas de SSMA, Analytics e Governança de Dados, conforme necessidade de uso e regras de segurança."
+eva-prj-prd-trusted-data-bt,tru_ssma_genu,"Descrição
+Dataset que concentra dados de Saúde Ocupacional, componente do escopo de SSMA, extraídos do sistema GENU, abrangendo informações relacionadas à colaboradores próprios, atuando em gestão de exames ocupacionais, vacinas, restrições médicas, absenteísmo e vencimentos de exames.
+
+Fonte dos Dados
+Sistema GENU.
+
+Contexto de Aplicação
+Utilizado para análises de saúde ocupacional, acompanhamento de conformidade legal, monitoramento de indicadores de saúde dos colaboradores próprios e apoio à tomada de decisão em SSMA.
+
+Restrições ou Observações
+Contém dados pessoais sensíveis de saúde, exigindo tratamento adequado, acesso restrito e conformidade com a LGPD e políticas internas de segurança da informação.
+
+Políticas de Acesso
+Acesso altamente restrito a áreas de Saúde Ocupacional, SSMA, Governança de Dados e usuários autorizados, conforme políticas corporativas."
+eva-prj-prd-trusted-data-bt,tru_ssma_performance,"Descrição
+Dataset que consolida as tabelas provenientes do banco Performance, repositório legado utilizado para armazenamento histórico de informações de SSMA anteriores ao processo de migração, incluindo indicadores, diretrizes, parâmetros, metas, relatórios e medições.
+
+Fonte dos Dados
+Banco Performance (repositório legado de SSMA).
+
+Contexto de Aplicação
+Utilizado como base histórica para análises analíticas, comparativos temporais, acompanhamento de indicadores de desempenho em Saúde, Segurança e Meio Ambiente, bem como apoio a relatórios gerenciais e processos de governança.
+
+Restrições ou Observações
+Contém dados legados, podendo apresentar limitações de padronização e qualidade em relação aos dados mais recentes. O uso deve considerar o contexto histórico e as regras de governança aplicáveis.
+
+Políticas de Acesso
+Acesso restrito a áreas de SSMA, Analytics, Governança de Dados e usuários autorizados para análises e auditorias."
+eva-prj-prd-trusted-data-bt,tru_ssma_redmine,"Descrição
+Dataset que reúne todas as tabelas extraídas do Conecta, sistema fonte para registro e gestão de eventos e processos de Segurança, Saúde e Meio Ambiente (SSMA), abrangendo colaboradores próprios e terceiros, incluindo incidentes, quase-acidentes, não conformidades, ações corretivas e preventivas, investigações, danos e atividades associadas.
+
+Fonte dos Dados
+Sistema Conecta.
+
+Contexto de Aplicação
+Base principal para cálculo, monitoramento e análise dos indicadores de SSMA, suportando relatórios operacionais e gerenciais.
+
+Restrições ou Observações
+Pode conter dados pessoais e sensíveis relacionados a eventos e incidentes, devendo seguir rigorosamente as políticas de proteção de dados e uso conforme LGPD.
+
+Políticas de Acesso
+Acesso controlado para equipes de SSMA, Segurança do Trabalho, Analytics e Governança, conforme perfil e necessidade de uso."
