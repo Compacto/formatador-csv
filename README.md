@@ -56,7 +56,6 @@ O objetivo principal da aplicação é:
   * Aspas;
   * Conteúdo HTML.
 * Download do arquivo gerado pela interface.
-* Salvamento local na pasta `output/`.
 
 ---
 
@@ -85,8 +84,6 @@ project/
 │
 ├── templates/
 │   ├── *.xlsx
-│
-├── output/
 │
 ├── requirements.txt
 │
@@ -472,7 +469,6 @@ Os arquivos enviados são processados pela aplicação para execução das valid
 Os arquivos CSV gerados:
 
 * Podem ser baixados diretamente pela interface;
-* São gravados localmente na pasta `output/`.
 
 A aplicação não realiza armazenamento permanente dos arquivos em serviços externos, bancos de dados ou provedores de nuvem. Todo o processamento e armazenamento ocorrem apenas no ambiente em que a aplicação está sendo executada.
 
